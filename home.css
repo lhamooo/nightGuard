@@ -1,0 +1,61 @@
+body {
+    background-image: url('hintergrundWeb.jpg'); /* Hier ersetzt du 'pfad/zum/deinem/bild.jpg' mit dem Pfad zu deinem Bild */
+    background-size: cover; /* Das Bild wird so skaliert, dass es den gesamten Hintergrund bedeckt */
+    background-repeat: no-repeat; /* Das Bild wird nicht wiederholt */
+    background-position: center; /* Das Bild wird zentriert positioniert */
+    /* Optional: Zusätzliche CSS-Stile für den Body */
+    margin: 0; /* Entfernt den Seitenrand */
+    padding: 0; /* Entfernt den Innenabstand */
+    font-family: Arial, sans-serif; /* Wähle eine Standardschriftart */
+    color: #ffffff; /* Wähle eine Schriftfarbe */
+    height: 100vh; /* Die Höhe des Body-Elements wird auf die Höhe des Bildschirms gesetzt */
+}
+
+.logo{
+    width: 22em;
+}
+
+.foto-col{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    margin-top: 5em;
+}
+
+.schrift-col{
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+}
+
+.schrift{
+    width: 25em;
+}
+
+.prototyp-b{
+    background-color: #711DB0;
+    color: white;
+    border: 2px solid rgba(25, 4, 130, 0.2);
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+.prototyp-b:hover{
+    background-color: white;
+    color: #711DB0;
+    border-color: #711DB0;
+}
+
+.prototyp-col{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.colored{
+    width: 100%;
+    background-color: #040622;
+}
