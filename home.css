@@ -12,7 +12,9 @@ body {
 }
 
 .logo{
-    width: 22em;
+    margin-top: 1em;
+    width: 5em;
+    margin-left: 2em;
 }
 
 .foto-col{
@@ -21,7 +23,7 @@ body {
 }
 
 .container{
-    margin-top: 5em;
+    margin-top: 8em;
 }
 
 .schrift-col{
@@ -52,10 +54,19 @@ body {
 .prototyp-col{
     display: flex;
     justify-content: center;
+    margin-top: 3em;
+}
+
+.video-col{
+    display: flex;
+    justify-content: center;
     margin-top: 2em;
 }
 
-.colored{
-    width: 100%;
-    background-color: #040622;
+
+
+.logo-div{
+    position: absolute;
+    top: 0;
+    left: 0;
 }
